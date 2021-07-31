@@ -46,6 +46,7 @@ class _WelcomePageState extends State<WelcomePage> {
       onTap: () {
         Navigator.push(
             context, MaterialPageRoute(builder: (context) => SignUpPage()));
+        InkRipple.splashFactory;
       },
       child: Container(
         width: MediaQuery.of(context).size.width,
